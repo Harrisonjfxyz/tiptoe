@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(204, 204, 204); 
+    font-family: helvetica, arial, sans-serif; 
+    }  
+
+#logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+section {  
+    background-color: rgb(88, 88, 88);
+    border: 5px solid #000000;  
+    display: flex;
+    border-radius: 100px;
+    } 
+
+#item {
+    margin: auto;
+    color: #000000;
+    background-color: rgb(148, 148, 148);
+    border-radius: 100px;
+    padding: 50px;
+    font-size: 180%;
+}
+
+a:visited{
+    color: #000000;
+}
+
+a:hover{
+    font-size: 110%;
+    color: rgb(255, 208, 0);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    height: 120px;
+    background-color: #5a5a5a;
+    display: flex;
+}
+#footers{
+    font-size: 200%;
+    padding: 45px;
+}
+
+content{
+    height: 600px;
+}
+
+
+.background{
+    background-image: url('shoesbackground.jpg');
+    background-size: 100%;
+    width: auto;
+    min-height: 800px;
+}
